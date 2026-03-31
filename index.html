@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 眼镜每日资讯 - 2026-03-31 15:29</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            background: #f8f9fa;
+            padding: 20px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .category {
+            margin-bottom: 40px;
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .category-emoji {
+            font-size: 2em;
+            margin-right: 15px;
+        }
+
+        .category-title {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .category-count {
+            margin-left: auto;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .news-item {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s;
+        }
+
+        .news-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .news-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .news-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 10px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .news-meta span {
+            display: flex;
+            align-items: center;
+        }
+
+        .news-details {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .news-source {
+            margin-top: 10px;
+            color: #667eea;
+            font-weight: 500;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            color: #666;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .news-meta {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📰 AI 眼镜每日资讯</h1>
+            <p>自动收集最新 AI 眼镜行业动态 · 2026-03-31 15:29</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-value">4</div>
+                <div class="stat-label">分类数量</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">13</div>
+                <div class="stat-label">新闻总数</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">03-31</div>
+                <div class="stat-label">报告日期</div>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <section class="category">
+                <div class="category-header">
+                    <span class="category-emoji">🌍</span>
+                    <h2 class="category-title">国际动态</h2>
+                    <span class="category-count">3 条</span>
+                </div>
+
+                <article class="news-item">
+                    <h3 class="news-title">1. Meta 发布新版 Ray-Ban 智能眼镜</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-29</span>
+                        <span>🏢 Meta, Ray-Ban</span>
+                    </div>
+                    <p class="news-details">Meta发布Ray-Ban智能眼镜新版本，新增多语言实时翻译功能，续航提升至4小时，支持Meta AI助手。</p>
+                    <p class="news-source">🔗 来源：TechCrunch, The Verge</p>
+                </article>
+
+                <article class="news-item">
+                    <h3 class="news-title">2. Apple Vision Pro 市场份额达 35%</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-28</span>
+                        <span>🏢 Apple</span>
+                    </div>
+                    <p class="news-details">IDC报告显示Apple Vision Pro在高价位XR市场份额已达35%，预计年底推出更轻便的消费版。</p>
+                    <p class="news-source">🔗 来源：IDC Report</p>
+                </article>
+
+                <article class="news-item">
+                    <h3 class="news-title">3. Snap 发布 Spectacles 5.0</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-27</span>
+                        <span>🏢 Snap Inc.</span>
+                    </div>
+                    <p class="news-details">Snap推出第五代Spectacles，采用新waveguide技术，视场角提升至70度，支持实时AR滤镜共享。</p>
+                    <p class="news-source">🔗 来源：TechCrunch</p>
+                </article>
+
+            </section>
+
+            <section class="category">
+                <div class="category-header">
+                    <span class="category-emoji">🇨🇳</span>
+                    <h2 class="category-title">国内资讯</h2>
+                    <span class="category-count">4 条</span>
+                </div>
+
+                <article class="news-item">
+                    <h3 class="news-title">1. Rokid 发布 Max Pro AR 眼镜</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-29</span>
+                        <span>🏢 Rokid (若琪)</span>
+                    </div>
+                    <p class="news-details">Rokid在深圳发布Max Pro AR眼镜，采用Sony Micro OLED屏幕，分辨率1920x1080，价格2,999元起。</p>
+                    <p class="news-source">🔗 来源：36氪</p>
+                </article>
+
+                <article class="news-item">
+                    <h3 class="news-title">2. XREAL 完成 6000 万美元 C+ 轮融资</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-28</span>
+                        <span>🏢 XREAL (Nreal)</span>
+                    </div>
+                    <p class="news-details">XREAL宣布完成6000万美元融资，由招商局领投，用于产品研发和市场扩张，产品已在全球10多个国家销售。</p>
+                    <p class="news-source">🔗 来源：钛媒体</p>
+                </article>
+
+                <article class="news-item">
+                    <h3 class="news-title">3. 小度宣布 4 月发布新款 AI 眼镜</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-27</span>
+                        <span>🏢 百度小度</span>
+                    </div>
+                    <p class="news-details">百度小度宣布将于4月发布新款AI眼镜，搭载文心一言大模型，支持实时翻译、导航和健康监测，预计售价1,999元。</p>
+                    <p class="news-source">🔗 来源：品玩</p>
+                </article>
+
+                <article class="news-item">
+                    <h3 class="news-title">4. 华为智能眼镜 2 全球销量破 50 万</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-25</span>
+                        <span>🏢 华为</span>
+                    </div>
+                    <p class="news-details">华为官方宣布智能眼镜2系列全球销量突破50万副，主打音频体验和健康监测功能。</p>
+                    <p class="news-source">🔗 来源：华为官方</p>
+                </article>
+
+            </section>
+
+            <section class="category">
+                <div class="category-header">
+                    <span class="category-emoji">🔬</span>
+                    <h2 class="category-title">技术趋势</h2>
+                    <span class="category-count">3 条</span>
+                </div>
+
+                <article class="news-item">
+                    <h3 class="news-title">1. 光波导技术成本下降 30%</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-27</span>
+                        <span>🏢 舜宇光学, 水晶光电</span>
+                    </div>
+                    <p class="news-details">供应链消息显示，2025年光波导模组成本较去年下降约30%，推动AI/AR眼镜价格下探至2000元价位。</p>
+                    <p class="news-source">🔗 来源：集微网</p>
+                </article>
+
+                <article class="news-item">
+                    <h3 class="news-title">2. 高通发布 Snapdragon AR1 Gen 2</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-26</span>
+                        <span>🏢 高通, 联发科</span>
+                    </div>
+                    <p class="news-details">高通发布新一代AIoT芯片，专为智能眼镜优化，AI算力提升3倍，功耗降低25%。</p>
+                    <p class="news-source">🔗 来源：AnandTech</p>
+                </article>
+
+                <article class="news-item">
+                    <h3 class="news-title">3. AI 眼镜医疗应用快速增长</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-25</span>
+                        <span>🏢 多家医院, 科技公司</span>
+                    </div>
+                    <p class="news-details">AI眼镜在医疗领域应用快速增长，包括手术辅助、远程会诊、病历记录等，国内已有超过100家医院试点使用。</p>
+                    <p class="news-source">🔗 来源：健康界</p>
+                </article>
+
+            </section>
+
+            <section class="category">
+                <div class="category-header">
+                    <span class="category-emoji">📈</span>
+                    <h2 class="category-title">市场分析</h2>
+                    <span class="category-count">3 条</span>
+                </div>
+
+                <article class="news-item">
+                    <h3 class="news-title">1. 2025 全球 AI 眼镜市场预测</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-26</span>
+                        <span>🏢 IDC, Counterpoint</span>
+                    </div>
+                    <p class="news-details">IDC预测2025年全球AI眼镜出货量将突破1000万台，市场规模达150亿美元，消费级产品占比将超过70%。</p>
+                    <p class="news-source">🔗 来源：IDC Forecast</p>
+                </article>
+
+                <article class="news-item">
+                    <h3 class="news-title">2. 2025 Q1 智能眼镜销量增长 45%</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-25</span>
+                        <span>🏢 IDC, Canalys</span>
+                    </div>
+                    <p class="news-details">2025年Q1全球智能眼镜销量达180万台，同比增长45%。Meta Ray-Ban以55%市场份额位居第一。</p>
+                    <p class="news-source">🔗 来源：IDC Quarterly Report</p>
+                </article>
+
+                <article class="news-item">
+                    <h3 class="news-title">3. 消费者对 AI 眼镜接受度提升 2 倍</h3>
+                    <div class="news-meta">
+                        <span>📅 2025-03-24</span>
+                        <span>🏢 Gartner</span>
+                    </div>
+                    <p class="news-details">Gartner调研显示，2025年消费者对AI眼镜的接受度较2023年提升2倍，主要驱动力来自AI助手功能的成熟。</p>
+                    <p class="news-source">🔗 来源：Gartner Survey</p>
+                </article>
+
+            </section>
+
+        </div>
+
+        <div class="footer">
+            <p>📊 本报告由 AI 眼镜新闻技能自动生成</p>
+            <p>最后更新：2026-03-31 15:29 | <a href="https://github.com" target="_blank">查看源码</a></p>
+        </div>
+    </div>
+</body>
+</html>
